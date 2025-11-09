@@ -494,7 +494,7 @@ def main():
                         # Historique des itérations
                         if show_iterations and hasattr(solver, 'tableaux_history'):
                             st.markdown("---")
-                            st.header("📜 Historique des Itérations")
+                            st.header("Historique des Itérations")
                             
                             for record in solver.tableaux_history:
                                 with st.expander(f"Itération {record['iteration']}", 
@@ -522,4 +522,5 @@ def main():
                     st.exception(e)
 
 if __name__ == "__main__":
+
     main()
