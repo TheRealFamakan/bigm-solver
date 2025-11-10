@@ -182,10 +182,6 @@ Pour toute question ou suggestion :
 - Email : camarafamakan2@gmail.com
 - Issues : [GitHub Issues](https://github.com/TheRealFamakan/bigm-solver)
 
-## Licence
-
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
 ## Remerciements
 
 - Méthode Big M développée par George Dantzig
@@ -206,3 +202,4 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
 
 
 **Made with ❤️ and Python by The best Team IID2 Ensa Khouribga**
+
