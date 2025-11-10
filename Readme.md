@@ -27,7 +27,7 @@ Application web interactive pour résoudre des problèmes de programmation liné
 
 1. **Cloner ou télécharger le projet**
    ```bash
-   git clone https://github.com/votre-username/bigm-solver.git
+   git clone https://github.com/therealfamakan/bigm-solver.git
    cd bigm-solver
    ```
 
@@ -45,7 +45,7 @@ Application web interactive pour résoudre des problèmes de programmation liné
    - L'application s'ouvre automatiquement sur `http://localhost:8501`
    - Si ce n'est pas le cas, ouvrez manuellement ce lien dans votre navigateur
 
-## 📖 Guide d'utilisation
+## Guide d'utilisation
 
 ### Exemple simple
 
@@ -114,7 +114,7 @@ Dans la sidebar de l'application :
 - Type : `<=`, `>=` ou `=`
 - RHS : Nombre décimal (ex: 10.5)
 
-## 🧪 Tests
+## Tests
 
 ### Test 1 : Problème standard
 ```
@@ -140,7 +140,7 @@ Solution attendue: x₁ = 1, x₂ = 2, Z = 5
 - **[NumPy](https://numpy.org/)** - Calculs matriciels et algèbre linéaire
 - **[Pandas](https://pandas.pydata.org/)** - Manipulation et affichage des données
 
-## 📚 Méthode Big M
+## Méthode Big M
 
 La méthode Big M est une technique pour résoudre des problèmes de programmation linéaire avec des contraintes mixtes (`<=`, `>=`, `=`). Elle fonctionne en :
 
@@ -149,7 +149,7 @@ La méthode Big M est une technique pour résoudre des problèmes de programmati
 3. **Utilisant l'algorithme du simplexe** pour trouver la solution optimale
 4. **Garantissant** que les variables artificielles sortent de la base
 
-## ⚠️ Limitations
+## Limitations
 
 - L'application est conçue pour des problèmes de **taille raisonnable** (< 20 variables, < 30 contraintes)
 - Tous les coefficients du membre de droite (RHS) doivent être **non-négatifs**
@@ -180,7 +180,7 @@ streamlit run app.py --server.port 8502
 
 Pour toute question ou suggestion :
 - Email : camarafamakan2@gmail.com
-- Issues : [GitHub Issues](https://github.com/votre-username/bigm-solver/issues)
+- Issues : [GitHub Issues](https://github.com/TheRealFamakan/bigm-solver)
 
 ## Licence
 
@@ -203,5 +203,6 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
 - Affichage des itérations
 
 ---
+
 
 **Made with ❤️ and Python by The best Team IID2 Ensa Khouribga**
